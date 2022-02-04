@@ -7,13 +7,16 @@
     "bootstrap": "^4.3.1",
     "bootstrap-icons": "^1.7.2",
     "react": "^16.8.6",
+    "react-alert": "^7.0.3",
+    "react-alert-template-basic": "^1.0.2",
     "react-datepicker": "^2.5.0",
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.0",
-    "react-scripts": "3.0.1"
+    "react-scripts": "3.0.1",
+    "react-toastify": "^8.1.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "set PORT= 3007 && react-scripts --openssl-legacy-provider start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
